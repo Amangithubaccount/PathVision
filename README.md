@@ -25,13 +25,7 @@ Traditional Systems:
 Object Detected → Alert User
 
 PathVision AI:
-Object Detected
-       ↓
-Movement Analysis
-       ↓
-Risk Prediction
-       ↓
-Early Warning Alert
+![image alt](https://github.com/Amangithubaccount/PathVision/blob/main/PathVision_Hardware.jpeg)
 
 Instead of merely informing users about nearby objects, the system estimates:
 1.Direction of movement
@@ -41,35 +35,7 @@ Instead of merely informing users about nearby objects, the system estimates:
 5.Time-to-impact approximation
 
 This enables proactive rather than reactive assistance.
-┌─────────────┐
-           │   Camera    │
-           └──────┬──────┘
-                  │
-                  ▼
-       ┌─────────────────────┐
-       │ YOLOv8 Object       │
-       │ Detection Model     │
-       └─────────┬───────────┘
-                 │
-                 ▼
-       ┌─────────────────────┐
-       │ Motion Analysis     │
-       │ & Object Tracking   │
-       └─────────┬───────────┘
-                 │
-                 ▼
-       ┌─────────────────────┐
-       │ Risk Prediction     │
-       │ Engine              │
-       └─────────┬───────────┘
-                 │
-                 ▼
-       ┌─────────────────────┐
-       │ Alert Generation    │
-       └─────────┬───────────┘
-                 │
-                 ▼
-      Audio / Voice / Vibration
+
 
 
 
