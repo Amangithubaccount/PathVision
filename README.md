@@ -70,47 +70,14 @@ Generated labels are stored in YOLO format.
 
 Phase 4 – Dataset Creation
 Dataset Structure:
+.images
+.labels
+.labels.cache
 
-dataset/
-│
-├── images/
-│
-├── labels/
-│
-└── labels.cache
 The dataset consists of images and corresponding annotations for supervised training. 
-PathVisionAI_Project_Crux.pdf
 
 Phase 5 – YOLOv8 Training
 A custom YOLOv8 Nano model is trained on the prepared dataset. 
-
-Training Command
-
-yolo detect train \
-model=yolov8n.pt \
-data=data.yaml \
-epochs=100 \
-imgsz=640
-
-Output:
-
-runs/
-└── detect/
-    ├── train/
-    ├── train2/
-    ├── train3/
-    ├── train4/
-    ├── train5/
-    └── train6/
-    
-Best-performing weights:
-
-best.pt
-or
-last.pt
-These models are later used for real-time inference. 
-
-
 
 
 🧠 Pre-Risk Prediction Engine
@@ -185,36 +152,9 @@ This ensures accessibility across different environments.
 
 
 📂 Project Structure:
-PATHVISION/
-│
-├── dataset/
-│   ├── images/
-│   ├── labels/
-│   └── labels.cache
-│
-├── frames/
-│
-├── models/
-│
-├── runs/
-│   └── detect/
-│       ├── train/
-│       ├── train2/
-│       ├── train3/
-│       ├── train4/
-│       ├── train5/
-│       └── train6/
-│
-├── videos/
-│
-├── auto_label.py
-├── extract_frames.py
-├── risk_system.py
-├── data.yaml
-├── yolov8n.pt
-├── README.md
-└── .gitignore
 
+
+![image alt](https://github.com/Amangithubaccount/PathVision/blob/main/PathVision_Structure.png)
 
 
 
