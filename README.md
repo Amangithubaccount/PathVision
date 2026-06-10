@@ -36,6 +36,7 @@ Instead of merely informing users about nearby objects, the system estimates:
 
 This enables proactive rather than reactive assistance.
 
+![image alt](![image alt](https://github.com/Amangithubaccount/PathVision/blob/main/PathVision_Hardware.jpeg))
 
 
 
