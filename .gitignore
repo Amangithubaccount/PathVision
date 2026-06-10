@@ -1,0 +1,7 @@
+dataset/
+models/
+frames/
+runs/
+videos/
+
+*.pt
